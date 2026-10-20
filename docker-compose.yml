@@ -1,0 +1,33 @@
+# Starten:   docker compose up -d --build
+# Stoppen:   docker compose down
+#
+# robot   : verbinding met de Maqueen + kaart maken + verkennen
+# desktop : Ubuntu-bureaublad met RViz in je browser -> http://localhost:6080
+
+services:
+  robot:
+    build: ./docker
+    container_name: maqueen
+    restart: unless-stopped
+    environment:
+      - PORT=socket://host.docker.internal:7777
+      - ROS_DOMAIN_ID=30
+      - MAX_LIN=0.2   # m/s bij volle snelheid: meten en aanpassen
+      - MIN_PWM=50    # verhogen als de robot niet wil draaien
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./kaarten:/kaarten
+
+  desktop:
+    image: tiryoh/ros2-desktop-vnc:jazzy
+    container_name: maqueen-desktop
+    restart: unless-stopped
+    ports:
+      - "6080:80"
+    shm_size: 512m
+    environment:
+      - ROS_DOMAIN_ID=30
+    volumes:
+      - ./docker/rviz:/maqueen_rviz
+      - ./kaarten:/kaarten

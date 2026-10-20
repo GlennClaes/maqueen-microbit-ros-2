@@ -1,0 +1,252 @@
+17:46:43 INFO  [bridge] Verbinden met socket://host.docker.internal:7777 ...
+17:46:43 INFO  [bridge] Verbonden
+17:46:43 INFO  [slam] Klaar. Start met: ros2 param set /maqueen_slam mode verkennen
+17:46:45 INFO  [slam] [STIL/-] pos (0.00,0.00) 0gr | thuis op 0.00 m | afstand 57 cm | doel - | rondjes 0, lussen 0, obstakels 0, objecten 0
+17:46:48 INFO  [bridge] Robot: 7 metingen/s | afstand 56.6 cm | lijn 1/1 | kompas 132 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L0 R0 | pos (0.00,0.00) 0gr
+17:46:53 INFO  [bridge] Robot: 7 metingen/s | afstand 56.7 cm | lijn 1/1 | kompas 160 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L0 R0 | pos (0.00,0.00) 0gr
+17:46:58 INFO  [bridge] Robot: 7 metingen/s | afstand 56.1 cm | lijn 1/1 | kompas 125 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L0 R0 | pos (0.00,0.00) 0gr
+17:47:03 INFO  [bridge] Robot: 7 metingen/s | afstand 56.2 cm | lijn 1/1 | kompas 147 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L0 R0 | pos (0.00,0.00) 0gr
+17:47:08 INFO  [bridge] Robot: 7 metingen/s | afstand 56.8 cm | lijn 1/1 | kompas 132 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L0 R0 | pos (0.00,0.00) 0gr
+17:47:13 INFO  [bridge] Robot: 7 metingen/s | afstand 56.7 cm | lijn 1/1 | kompas 137 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L0 R0 | pos (0.00,0.00) 0gr
+17:47:18 INFO  [bridge] Robot: 7 metingen/s | afstand 56.6 cm | lijn 1/1 | kompas 132 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L0 R0 | pos (0.00,0.00) 0gr
+17:47:23 INFO  [bridge] Robot: 7 metingen/s | afstand 56.6 cm | lijn 1/1 | kompas 121 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L0 R0 | pos (0.00,0.00) 0gr
+17:47:28 INFO  [bridge] Robot: 7 metingen/s | afstand 56.2 cm | lijn 1/1 | kompas 135 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L0 R0 | pos (0.00,0.00) 0gr
+17:47:30 INFO  [slam] Thuispunt (start van de ronde): 0.00, 0.00
+17:47:30 INFO  [slam] [VERKENNEN] - -> SCAN (rondje meten)
+17:47:30 INFO  [slam] Modus gevraagd: verkennen -> nu VERKENNEN (verkennen)
+17:47:31 INFO  [slam] [VERKENNEN/SCAN] pos (0.00,0.00) 126gr | thuis op 0.00 m | afstand 95 cm | doel - | rondjes 0, lussen 0, obstakels 0, objecten 0
+17:47:33 INFO  [slam] [VERKENNEN/SCAN] pos (0.00,0.00) -5gr | thuis op 0.00 m | afstand 56 cm | doel - | rondjes 0, lussen 0, obstakels 0, objecten 0
+17:47:33 INFO  [bridge] Robot: 7 metingen/s | afstand 15.8 cm | lijn 1/1 | kompas 8 gr (nog niet gekoppeld (eerst een rondje draaien)) | motoren L-102 R102 | pos (0.00,0.00) 7gr
+17:47:33 INFO  [slam] [VERKENNEN] SCAN -> PLAN (route plannen)
+17:47:33 DEBUG [slam] Route (kaart): doel (0.03,0.28), 0.28 m, 3 punten
+17:47:33 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:47:34 INFO  [bridge] Kompas gekoppeld (normaal)
+17:47:35 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.02,0.01) 28gr | thuis op 0.02 m | afstand 106 cm | doel (0.03,0.28) nog 3 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:36 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:47:36 DEBUG [slam] Route (kaart): doel (0.03,0.28), 0.27 m, 3 punten
+17:47:36 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:47:37 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.03,0.03) 31gr | thuis op 0.05 m | afstand 36 cm | doel (0.03,0.28) nog 3 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:38 INFO  [bridge] Robot: 6 metingen/s | afstand 47.9 cm | lijn 1/1 | kompas 306 gr (normaal) | motoren L102 R-102 | pos (0.03,0.03) -111gr
+17:47:39 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.03,0.03) 14gr | thuis op 0.05 m | afstand geen echo | doel (0.03,0.28) nog 3 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:39 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:47:39 DEBUG [slam] Route (kaart): doel (0.03,0.28), 0.24 m, 3 punten
+17:47:39 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:47:41 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.03,0.03) 57gr | thuis op 0.05 m | afstand 58 cm | doel (0.03,0.28) nog 3 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:42 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:47:42 DEBUG [slam] Route (kaart): doel (-0.02,0.28), 0.25 m, 3 punten
+17:47:42 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:47:43 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.03,0.05) -86gr | thuis op 0.05 m | afstand 85 cm | doel (-0.02,0.28) nog 2 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:43 INFO  [bridge] Robot: 6 metingen/s | afstand 85.2 cm | lijn 0/0 | kompas 281 gr (normaal) | motoren L102 R-102 | pos (0.03,0.05) -86gr
+17:47:45 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.00,0.04) 50gr | thuis op 0.04 m | afstand 76 cm | doel (-0.02,0.28) nog 2 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:46 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:47:46 DEBUG [slam] Route (kaart): doel (0.28,0.08), 0.29 m, 3 punten
+17:47:46 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:47:47 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.00,0.03) 49gr | thuis op 0.03 m | afstand geen echo | doel (0.28,0.08) nog 2 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:48 INFO  [bridge] Robot: 6 metingen/s | afstand 72.1 cm | lijn 0/0 | kompas 42 gr (normaal) | motoren L102 R-102 | pos (0.00,0.03) 153gr
+17:47:49 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:47:49 INFO  [slam] [VERKENNEN/PLAN] pos (0.00,0.03) -160gr | thuis op 0.03 m | afstand 56 cm | doel (0.28,0.08) nog 2 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:49 DEBUG [slam] Route (kaart): doel (0.28,0.08), 0.29 m, 3 punten
+17:47:49 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:47:51 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.05,0.05) 170gr | thuis op 0.07 m | afstand 36 cm | doel (0.28,0.08) nog 2 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:52 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:47:52 DEBUG [slam] Route (kaart): doel (0.08,0.48), 0.45 m, 5 punten
+17:47:52 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:47:53 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.05,0.08) -160gr | thuis op 0.09 m | afstand 76 cm | doel (0.08,0.48) nog 4 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:53 INFO  [bridge] Robot: 6 metingen/s | afstand 75.5 cm | lijn 0/0 | kompas 38 gr (normaal) | motoren L102 R-102 | pos (0.05,0.08) 157gr
+17:47:55 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.05,0.08) -43gr | thuis op 0.09 m | afstand 116 cm | doel (0.08,0.48) nog 4 punten | rondjes 1, lussen 0, obstakels 0, objecten 0
+17:47:55 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:47:55 DEBUG [slam] Route (kaart): doel (0.23,-0.38), 0.53 m, 5 punten
+17:47:55 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:47:57 DEBUG [slam] 1 object(en) op de kaart
+17:47:57 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.06,0.09) 69gr | thuis op 0.11 m | afstand 85 cm | doel (0.23,-0.38) nog 5 punten | rondjes 1, lussen 0, obstakels 0, objecten 1
+17:47:58 INFO  [bridge] Robot: 6 metingen/s | afstand 15.4 cm | lijn 1/1 | kompas 342 gr (normaal) | motoren L-102 R102 | pos (0.06,0.09) -147gr
+17:47:58 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:47:58 DEBUG [slam] Route (kaart): doel (0.23,-0.38), 0.53 m, 5 punten
+17:47:58 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:47:59 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.06,0.09) 74gr | thuis op 0.11 m | afstand 102 cm | doel (0.23,-0.38) nog 5 punten | rondjes 1, lussen 0, obstakels 0, objecten 1
+17:48:01 DEBUG [slam] 2 object(en) op de kaart
+17:48:01 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.04,0.08) -174gr | thuis op 0.08 m | afstand 82 cm | doel (0.23,-0.38) nog 5 punten | rondjes 1, lussen 0, obstakels 0, objecten 2
+17:48:01 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:01 DEBUG [slam] Route (kaart): doel (0.23,-0.38), 0.52 m, 5 punten
+17:48:01 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:03 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.04,0.08) 12gr | thuis op 0.08 m | afstand geen echo | doel (0.23,-0.38) nog 5 punten | rondjes 1, lussen 0, obstakels 0, objecten 2
+17:48:03 INFO  [bridge] Robot: 6 metingen/s | afstand 14.4 cm | lijn 0/0 | kompas 177 gr (normaal) | motoren L102 R-102 | pos (0.04,0.08) 18gr
+17:48:03 INFO  [slam] Obstakel onthouden op (0.09, -0.10); daar rijd ik niet meer heen
+17:48:03 INFO  [slam] [VERKENNEN] VOLGEN -> ACHTERUIT (achteruit van obstakel)
+17:48:04 INFO  [slam] [VERKENNEN] ACHTERUIT -> PLAN (route plannen)
+17:48:04 DEBUG [slam] Route (kaart): doel (-0.62,-0.22), 0.80 m, 7 punten
+17:48:04 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:05 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.03,0.10) -163gr | thuis op 0.11 m | afstand 43 cm | doel (-0.62,-0.22) nog 7 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:07 INFO  [slam] [VERKENNEN/VOLGEN] pos (0.04,0.11) 164gr | thuis op 0.12 m | afstand 77 cm | doel (-0.62,-0.22) nog 7 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:07 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:07 DEBUG [slam] Route (kaart): doel (-0.47,-0.17), 0.64 m, 5 punten
+17:48:07 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:08 INFO  [bridge] Robot: 6 metingen/s | afstand -1 cm | lijn 1/1 | kompas 30 gr (normaal) | motoren L102 R-102 | pos (0.04,0.12) 165gr
+17:48:09 DEBUG [slam] 1 object(en) op de kaart
+17:48:09 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.00,0.13) 2gr | thuis op 0.13 m | afstand 68 cm | doel (-0.47,-0.17) nog 4 punten | rondjes 1, lussen 0, obstakels 1, objecten 1
+17:48:10 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:10 DEBUG [slam] Route (kaart): doel (0.17,-0.42), 0.93 m, 8 punten
+17:48:10 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:11 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.02,0.14) 8gr | thuis op 0.14 m | afstand 50 cm | doel (0.17,-0.42) nog 8 punten | rondjes 1, lussen 0, obstakels 1, objecten 1
+17:48:13 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.01,0.13) 25gr | thuis op 0.13 m | afstand 145 cm | doel (0.17,-0.42) nog 8 punten | rondjes 1, lussen 0, obstakels 1, objecten 1
+17:48:13 INFO  [bridge] Robot: 6 metingen/s | afstand 144.8 cm | lijn 1/1 | kompas 170 gr (normaal) | motoren L102 R-102 | pos (-0.01,0.13) 25gr
+17:48:13 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:13 DEBUG [slam] Route (kaart): doel (0.17,-0.42), 0.92 m, 8 punten
+17:48:13 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:15 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.01,0.14) -43gr | thuis op 0.14 m | afstand 110 cm | doel (0.17,-0.42) nog 8 punten | rondjes 1, lussen 0, obstakels 1, objecten 1
+17:48:16 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:16 DEBUG [slam] Route (kaart): doel (0.17,-0.42), 0.94 m, 8 punten
+17:48:16 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:17 DEBUG [slam] 2 object(en) op de kaart
+17:48:17 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.03,0.13) -139gr | thuis op 0.13 m | afstand 50 cm | doel (0.17,-0.42) nog 8 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:18 INFO  [bridge] Robot: 7 metingen/s | afstand -1 cm | lijn 0/0 | kompas 248 gr (normaal) | motoren L102 R-102 | pos (-0.03,0.13) -53gr
+17:48:19 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.03,0.13) 95gr | thuis op 0.13 m | afstand 41 cm | doel (0.17,-0.42) nog 8 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:19 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:19 DEBUG [slam] Route (kaart): doel (0.17,-0.42), 0.92 m, 8 punten
+17:48:19 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:21 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.04,0.14) 150gr | thuis op 0.15 m | afstand 70 cm | doel (0.17,-0.42) nog 8 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:22 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:22 INFO  [slam] Geen grens op de kaart, ik rij de vrijste kant op
+17:48:22 DEBUG [slam] Route (kaart): doel (-0.00,-0.45), 0.60 m, 1 punten
+17:48:22 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:23 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.06,0.14) -150gr | thuis op 0.15 m | afstand geen echo | doel (-0.00,-0.45) nog 1 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:23 INFO  [bridge] Robot: 6 metingen/s | afstand -1 cm | lijn 0/0 | kompas 20 gr (normaal) | motoren L-102 R102 | pos (-0.06,0.14) 175gr
+17:48:25 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.06,0.14) -42gr | thuis op 0.15 m | afstand geen echo | doel (-0.00,-0.45) nog 1 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:25 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:26 INFO  [slam] Geen grens op de kaart, ik rij de vrijste kant op
+17:48:26 DEBUG [slam] Route (kaart): doel (-0.00,-0.45), 0.60 m, 1 punten
+17:48:26 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:27 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.07,0.13) 171gr | thuis op 0.15 m | afstand 64 cm | doel (-0.00,-0.45) nog 1 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:28 INFO  [bridge] Robot: 6 metingen/s | afstand -1 cm | lijn 0/0 | kompas 356 gr (normaal) | motoren L-102 R102 | pos (-0.07,0.13) -161gr
+17:48:29 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:29 INFO  [slam] Alles verkend! Terug naar huis.
+17:48:29 DEBUG [slam] Route (eigen spoor): doel (0.00,0.00), 0.19 m, 2 punten
+17:48:29 DEBUG [slam] [NAAR_HUIS] PLAN -> VOLGEN (route volgen)
+17:48:29 INFO  [slam] [NAAR_HUIS/VOLGEN] pos (-0.07,0.13) -77gr | thuis op 0.15 m | afstand 55 cm | doel (0.00,0.00) nog 2 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:31 INFO  [slam] [NAAR_HUIS/VOLGEN] pos (-0.07,0.10) -49gr | thuis op 0.13 m | afstand 95 cm | doel (0.00,0.00) nog 2 punten | rondjes 1, lussen 0, obstakels 1, objecten 2
+17:48:32 DEBUG [slam] 1 object(en) op de kaart
+17:48:32 DEBUG [slam] [NAAR_HUIS] VOLGEN -> PLAN (route plannen)
+17:48:32 INFO  [slam] [NAAR_HUIS] PLAN -> UITLIJNEN (in startrichting draaien)
+17:48:32 INFO  [slam] [KLAAR] UITLIJNEN -> - (stil)
+17:48:32 INFO  [slam] Thuis aangekomen. 1 object(en) gevonden. Pad bewaard in kaarten/traject.csv
+17:48:33 INFO  [slam] [KLAAR/-] pos (-0.05,0.09) -135gr | thuis op 0.10 m | afstand 41 cm | doel (0.00,0.00) nog 0 punten | rondjes 1, lussen 0, obstakels 1, objecten 1
+17:48:33 INFO  [bridge] Robot: 6 metingen/s | afstand 41.3 cm | lijn 1/1 | kompas 23 gr (normaal) | motoren L0 R0 | pos (-0.05,0.09) 172gr
+17:48:38 DEBUG [slam] 2 object(en) op de kaart
+17:48:38 INFO  [bridge] Robot: 7 metingen/s | afstand 39.6 cm | lijn 1/1 | kompas 4 gr (normaal) | motoren L0 R0 | pos (-0.05,0.09) -169gr
+17:48:39 DEBUG [slam] 1 object(en) op de kaart
+17:48:43 INFO  [bridge] Robot: 7 metingen/s | afstand 39.6 cm | lijn 1/1 | kompas 2 gr (normaal) | motoren L0 R0 | pos (-0.05,0.09) -167gr
+17:48:46 INFO  [slam] Staat al thuis (binnen 12 cm van het startpunt)
+17:48:48 DEBUG [slam] 3 object(en) op de kaart
+17:48:48 INFO  [bridge] Robot: 7 metingen/s | afstand 39.4 cm | lijn 1/1 | kompas 354 gr (normaal) | motoren L0 R0 | pos (-0.05,0.09) -159gr
+17:48:50 DEBUG [slam] 1 object(en) op de kaart
+17:48:52 INFO  [slam] Thuispunt (start van de ronde): -0.05, 0.09
+17:48:52 INFO  [slam] [VERKENNEN] - -> SCAN (rondje meten)
+17:48:52 INFO  [slam] Modus gevraagd: verkennen -> nu VERKENNEN (verkennen)
+17:48:53 INFO  [slam] [VERKENNEN/SCAN] pos (-0.05,0.09) -137gr | thuis op 0.00 m | afstand 38 cm | doel (0.00,0.00) nog 0 punten | rondjes 1, lussen 0, obstakels 1, objecten 1
+17:48:53 INFO  [bridge] Robot: 7 metingen/s | afstand 38.5 cm | lijn 1/1 | kompas 332 gr (normaal) | motoren L-102 R102 | pos (-0.05,0.09) -137gr
+17:48:55 INFO  [slam] [VERKENNEN] SCAN -> PLAN (route plannen)
+17:48:55 INFO  [slam] Geen grens op de kaart, ik rij de vrijste kant op
+17:48:55 DEBUG [slam] Route (kaart): doel (-0.19,0.44), 0.38 m, 1 punten
+17:48:55 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:55 DEBUG [slam] 2 object(en) op de kaart
+17:48:55 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.05,0.09) -124gr | thuis op 0.00 m | afstand 63 cm | doel (-0.19,0.44) nog 1 punten | rondjes 2, lussen 0, obstakels 1, objecten 2
+17:48:57 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.05,0.09) 27gr | thuis op 0.00 m | afstand geen echo | doel (-0.19,0.44) nog 1 punten | rondjes 2, lussen 0, obstakels 1, objecten 2
+17:48:58 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:48:58 INFO  [bridge] Robot: 6 metingen/s | afstand 55 cm | lijn 0/0 | kompas 280 gr (normaal) | motoren L0 R0 | pos (-0.06,0.09) -85gr
+17:48:58 INFO  [slam] Geen grens op de kaart, ik rij de vrijste kant op
+17:48:58 DEBUG [slam] Route (kaart): doel (-0.21,0.44), 0.38 m, 1 punten
+17:48:58 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:48:59 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.06,0.09) 167gr | thuis op 0.01 m | afstand 56 cm | doel (-0.21,0.44) nog 1 punten | rondjes 2, lussen 0, obstakels 1, objecten 2
+17:49:00 DEBUG [slam] 3 object(en) op de kaart
+17:49:01 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.10,0.13) -53gr | thuis op 0.07 m | afstand geen echo | doel (-0.21,0.44) nog 1 punten | rondjes 2, lussen 0, obstakels 1, objecten 3
+17:49:01 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:49:01 INFO  [slam] Alles verkend! Terug naar huis.
+17:49:01 INFO  [slam] [NAAR_HUIS] PLAN -> SCAN (rondje meten)
+17:49:02 INFO  [slam] [NAAR_HUIS] SCAN -> UITLIJNEN (in startrichting draaien)
+17:49:03 INFO  [slam] [NAAR_HUIS/UITLIJNEN] pos (-0.10,0.13) -125gr | thuis op 0.07 m | afstand 149 cm | doel (-0.21,0.44) nog 0 punten | rondjes 3, lussen 0, obstakels 1, objecten 3
+17:49:03 INFO  [bridge] Robot: 6 metingen/s | afstand 149 cm | lijn 1/1 | kompas 320 gr (normaal) | motoren L102 R-102 | pos (-0.10,0.13) -125gr
+17:49:04 DEBUG [slam] 2 object(en) op de kaart
+17:49:05 INFO  [slam] [NAAR_HUIS/UITLIJNEN] pos (-0.10,0.13) -30gr | thuis op 0.07 m | afstand 65 cm | doel (-0.21,0.44) nog 0 punten | rondjes 3, lussen 0, obstakels 1, objecten 2
+17:49:07 INFO  [slam] [NAAR_HUIS/UITLIJNEN] pos (-0.10,0.13) -159gr | thuis op 0.07 m | afstand geen echo | doel (-0.21,0.44) nog 0 punten | rondjes 3, lussen 0, obstakels 1, objecten 2
+17:49:07 INFO  [slam] [KLAAR] UITLIJNEN -> - (stil)
+17:49:07 INFO  [slam] Thuis aangekomen. 2 object(en) gevonden. Pad bewaard in kaarten/traject.csv
+17:49:08 INFO  [bridge] Robot: 6 metingen/s | afstand 36.2 cm | lijn 0/0 | kompas 343 gr (normaal) | motoren L0 R0 | pos (-0.10,0.13) -148gr
+17:49:09 INFO  [slam] [KLAAR/-] pos (-0.10,0.13) -156gr | thuis op 0.07 m | afstand 36 cm | doel (-0.21,0.44) nog 0 punten | rondjes 3, lussen 0, obstakels 1, objecten 2
+17:49:13 INFO  [bridge] Robot: 7 metingen/s | afstand 36.3 cm | lijn 1/1 | kompas 337 gr (normaal) | motoren L0 R0 | pos (-0.10,0.13) -142gr
+17:49:18 INFO  [slam] Staat al thuis (binnen 12 cm van het startpunt)
+17:49:18 INFO  [bridge] Robot: 7 metingen/s | afstand 36.4 cm | lijn 1/1 | kompas 337 gr (normaal) | motoren L0 R0 | pos (-0.10,0.13) -142gr
+17:49:23 INFO  [bridge] Robot: 7 metingen/s | afstand 36.3 cm | lijn 1/1 | kompas 343 gr (normaal) | motoren L0 R0 | pos (-0.10,0.13) -148gr
+17:49:23 INFO  [slam] Thuispunt (start van de ronde): -0.10, 0.13
+17:49:23 INFO  [slam] [VERKENNEN] - -> SCAN (rondje meten)
+17:49:23 INFO  [slam] Modus gevraagd: verkennen -> nu VERKENNEN (verkennen)
+17:49:25 INFO  [slam] [VERKENNEN/SCAN] pos (-0.10,0.13) -20gr | thuis op 0.00 m | afstand 36 cm | doel (-0.21,0.44) nog 0 punten | rondjes 3, lussen 0, obstakels 1, objecten 2
+17:49:27 INFO  [slam] [VERKENNEN/SCAN] pos (-0.10,0.13) -59gr | thuis op 0.00 m | afstand 57 cm | doel (-0.21,0.44) nog 0 punten | rondjes 3, lussen 0, obstakels 1, objecten 2
+17:49:28 INFO  [bridge] Robot: 7 metingen/s | afstand 55.9 cm | lijn 1/1 | kompas 288 gr (normaal) | motoren L-102 R102 | pos (-0.10,0.13) -109gr
+17:49:28 INFO  [slam] Positie gecorrigeerd: -5 cm, +15 cm, +4 graden
+17:49:28 INFO  [slam] [VERKENNEN] SCAN -> PLAN (route plannen)
+17:49:28 INFO  [slam] Geen grens op de kaart, ik rij de vrijste kant op
+17:49:28 DEBUG [slam] Route (kaart): doel (-0.47,0.39), 0.34 m, 1 punten
+17:49:28 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:49:29 DEBUG [slam] 4 object(en) op de kaart
+17:49:29 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.16,0.28) 177gr | thuis op 0.16 m | afstand 61 cm | doel (-0.47,0.39) nog 1 punten | rondjes 4, lussen 0, obstakels 1, objecten 4
+17:49:30 DEBUG [slam] 3 object(en) op de kaart
+17:49:31 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.23,0.29) 22gr | thuis op 0.21 m | afstand 90 cm | doel (-0.47,0.39) nog 1 punten | rondjes 4, lussen 0, obstakels 1, objecten 3
+17:49:31 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:49:31 INFO  [slam] Geen grens op de kaart, ik rij de vrijste kant op
+17:49:31 DEBUG [slam] Route (kaart): doel (-0.54,0.41), 0.34 m, 1 punten
+17:49:31 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:49:32 DEBUG [slam] 4 object(en) op de kaart
+17:49:33 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.21,0.30) -126gr | thuis op 0.21 m | afstand 49 cm | doel (-0.54,0.41) nog 1 punten | rondjes 4, lussen 0, obstakels 1, objecten 4
+17:49:33 INFO  [bridge] Robot: 6 metingen/s | afstand 48.7 cm | lijn 0/0 | kompas 325 gr (normaal) | motoren L102 R-102 | pos (-0.16,0.16) -130gr
+17:49:34 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:49:34 DEBUG [slam] Route (kaart): doel (0.28,0.33), 0.49 m, 5 punten
+17:49:34 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:49:35 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.18,0.31) 4gr | thuis op 0.20 m | afstand 53 cm | doel (0.28,0.33) nog 4 punten | rondjes 4, lussen 0, obstakels 1, objecten 4
+17:49:37 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.20,0.30) 91gr | thuis op 0.20 m | afstand 52 cm | doel (0.28,0.33) nog 4 punten | rondjes 4, lussen 0, obstakels 1, objecten 4
+17:49:37 DEBUG [slam] [VERKENNEN] VOLGEN -> PLAN (route plannen)
+17:49:38 DEBUG [slam] Route (kaart): doel (0.28,0.33), 0.46 m, 5 punten
+17:49:38 DEBUG [slam] [VERKENNEN] PLAN -> VOLGEN (route volgen)
+17:49:38 INFO  [bridge] Robot: 6 metingen/s | afstand 63.5 cm | lijn 1/1 | kompas 318 gr (normaal) | motoren L102 R-102 | pos (-0.13,0.16) -123gr
+17:49:39 INFO  [slam] [VERKENNEN/VOLGEN] pos (-0.18,0.31) -32gr | thuis op 0.20 m | afstand 57 cm | doel (0.28,0.33) nog 5 punten | rondjes 4, lussen 0, obstakels 1, objecten 4
+17:49:40 DEBUG [slam] [NAAR_HUIS] VOLGEN -> PLAN (route plannen)
+17:49:40 INFO  [slam] Modus gevraagd: naar_huis -> nu NAAR_HUIS (op weg naar huis)
+17:49:40 DEBUG [slam] Route (eigen spoor): doel (-0.10,0.13), 0.20 m, 2 punten
+17:49:40 DEBUG [slam] [NAAR_HUIS] PLAN -> VOLGEN (route volgen)
+17:49:41 DEBUG [slam] 3 object(en) op de kaart
+17:49:41 INFO  [slam] [NAAR_HUIS/VOLGEN] pos (-0.18,0.31) -157gr | thuis op 0.20 m | afstand 80 cm | doel (-0.10,0.13) nog 1 punten | rondjes 4, lussen 0, obstakels 1, objecten 3
+17:49:43 INFO  [slam] [NAAR_HUIS/VOLGEN] pos (-0.16,0.30) -32gr | thuis op 0.18 m | afstand 117 cm | doel (-0.10,0.13) nog 1 punten | rondjes 4, lussen 0, obstakels 1, objecten 3
+17:49:43 INFO  [bridge] Robot: 6 metingen/s | afstand 117 cm | lijn 0/0 | kompas 25 gr (normaal) | motoren L102 R-102 | pos (-0.10,0.15) 170gr
+17:49:43 DEBUG [slam] [NAAR_HUIS] VOLGEN -> PLAN (route plannen)
+17:49:43 DEBUG [slam] Route (eigen spoor): doel (-0.10,0.13), 0.18 m, 2 punten
+17:49:43 DEBUG [slam] [NAAR_HUIS] PLAN -> VOLGEN (route volgen)
+17:49:44 DEBUG [slam] 2 object(en) op de kaart
+17:49:45 INFO  [slam] [NAAR_HUIS/VOLGEN] pos (-0.16,0.30) -39gr | thuis op 0.18 m | afstand 52 cm | doel (-0.10,0.13) nog 1 punten | rondjes 4, lussen 0, obstakels 1, objecten 2
+17:49:47 DEBUG [slam] [NAAR_HUIS] VOLGEN -> PLAN (route plannen)
+17:49:47 DEBUG [slam] Route (eigen spoor): doel (-0.10,0.13), 0.18 m, 2 punten
+17:49:47 DEBUG [slam] [NAAR_HUIS] PLAN -> VOLGEN (route volgen)
+17:49:47 INFO  [slam] [NAAR_HUIS/VOLGEN] pos (-0.16,0.30) 142gr | thuis op 0.18 m | afstand geen echo | doel (-0.10,0.13) nog 1 punten | rondjes 4, lussen 0, obstakels 1, objecten 2
+17:49:48 INFO  [bridge] Robot: 6 metingen/s | afstand -1 cm | lijn 0/0 | kompas 275 gr (normaal) | motoren L-102 R102 | pos (-0.09,0.11) -80gr
+17:49:49 INFO  [slam] [NAAR_HUIS/VOLGEN] pos (-0.13,0.23) -3gr | thuis op 0.11 m | afstand 80 cm | doel (-0.10,0.13) nog 1 punten | rondjes 4, lussen 0, obstakels 1, objecten 2
+17:49:50 DEBUG [slam] [NAAR_HUIS] VOLGEN -> PLAN (route plannen)
+17:49:50 INFO  [slam] [NAAR_HUIS] PLAN -> SCAN (rondje meten)
+17:49:51 INFO  [slam] [NAAR_HUIS/SCAN] pos (-0.13,0.23) 42gr | thuis op 0.11 m | afstand 41 cm | doel (-0.10,0.13) nog 0 punten | rondjes 4, lussen 0, obstakels 1, objecten 2
+17:49:51 INFO  [slam] [NAAR_HUIS] SCAN -> UITLIJNEN (in startrichting draaien)
+17:49:53 INFO  [slam] [KLAAR] UITLIJNEN -> - (stil)
+17:49:53 INFO  [slam] Thuis aangekomen. 2 object(en) gevonden. Pad bewaard in kaarten/traject.csv
+17:49:53 INFO  [slam] [KLAAR/-] pos (-0.13,0.23) -136gr | thuis op 0.11 m | afstand 51 cm | doel (-0.10,0.13) nog 0 punten | rondjes 5, lussen 0, obstakels 1, objecten 2
+17:49:53 INFO  [bridge] Robot: 6 metingen/s | afstand 50.7 cm | lijn 0/0 | kompas 310 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -115gr
+17:49:54 DEBUG [slam] 3 object(en) op de kaart
+17:49:55 DEBUG [slam] 2 object(en) op de kaart
+17:49:56 DEBUG [slam] 4 object(en) op de kaart
+17:49:57 DEBUG [slam] 3 object(en) op de kaart
+17:49:58 INFO  [bridge] Robot: 7 metingen/s | afstand 80.4 cm | lijn 1/1 | kompas 345 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -150gr
+17:50:01 DEBUG [slam] 2 object(en) op de kaart
+17:50:03 INFO  [bridge] Robot: 7 metingen/s | afstand 80.1 cm | lijn 1/1 | kompas 334 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -139gr
+17:50:08 INFO  [bridge] Robot: 7 metingen/s | afstand 80 cm | lijn 1/1 | kompas 346 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -151gr
+17:50:13 INFO  [bridge] Robot: 7 metingen/s | afstand 79.7 cm | lijn 1/1 | kompas 359 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -164gr
+17:50:18 INFO  [bridge] Robot: 7 metingen/s | afstand 79.6 cm | lijn 1/1 | kompas 335 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -140gr
+17:50:23 INFO  [bridge] Robot: 7 metingen/s | afstand 80.1 cm | lijn 1/1 | kompas 350 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -155gr
+17:50:28 INFO  [bridge] Robot: 7 metingen/s | afstand 79.6 cm | lijn 1/1 | kompas 346 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -151gr
+17:50:33 INFO  [bridge] Robot: 7 metingen/s | afstand 80.1 cm | lijn 1/1 | kompas 0 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -165gr
+17:50:38 INFO  [bridge] Robot: 7 metingen/s | afstand 80.1 cm | lijn 1/1 | kompas 17 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) 178gr
+17:50:43 INFO  [bridge] Robot: 7 metingen/s | afstand 79.6 cm | lijn 1/1 | kompas 335 gr (normaal) | motoren L0 R0 | pos (-0.08,0.08) -140gr
